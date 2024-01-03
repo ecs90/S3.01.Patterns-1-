@@ -2,7 +2,6 @@ package org.ecs90;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class Undo {
     private static Undo instancia;
@@ -26,7 +25,7 @@ public class Undo {
         return comandos.get(comandos.size() - 1);
     }
 
-    public void getComandos() {
+    public void printComandos() {
         for (String comando : comandos) {
             System.out.println(comando);
         }
@@ -40,5 +39,9 @@ public class Undo {
 
     public void deleteSpecificComando(String comando) {
         comandos.remove(comando);
+    }
+
+    public List<String> getComandos() {
+        return comandos;
     }
 }
