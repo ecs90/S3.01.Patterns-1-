@@ -14,14 +14,6 @@ public class UndoMenu{
 
     private static final Undo undo = Undo.getInstance();
 
-    private static UndoMenu instancia;
-
-    public static UndoMenu getInstance(){
-        if (instancia == null)
-            instancia = new UndoMenu();
-        return instancia;
-    }
-
     public void printOpciones() {
         System.out.println(opciones);
     }
