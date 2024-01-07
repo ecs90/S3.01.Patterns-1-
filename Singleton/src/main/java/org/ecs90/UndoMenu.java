@@ -51,11 +51,13 @@ public class UndoMenu{
                 else
                     System.out.println("Comando no existente");
                 undo.deleteSpecificComando(comando);
+                break;
             case 6:
                 System.out.println("Has elegido salir del programa.");
                 break;
             default:
                 System.out.println("Opción no válida");
+                break;
         }
     }
 }
