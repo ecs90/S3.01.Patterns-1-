@@ -1,7 +1,8 @@
-package org.ecs90;
+package org.ecs90.Domain;
 
 import org.ecs90.Command.AcelerarCommand;
 import org.ecs90.Command.ArrancarCommand;
+import org.ecs90.Command.FrenarCommand;
 import org.ecs90.Command.iCommand;
 import org.ecs90.Domain.*;
 

@@ -5,7 +5,7 @@ import org.ecs90.Domain.Avion;
 import org.ecs90.Domain.Barco;
 import org.ecs90.Domain.Bicicleta;
 import org.ecs90.Domain.Coche;
-import org.ecs90.Parking;
+import org.ecs90.Domain.Parking;
 
 import java.util.Collections;
 import java.util.List;

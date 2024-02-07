@@ -1,6 +1,7 @@
-package org.ecs90.Domain;
+package org.ecs90.Command;
 
 import org.ecs90.Command.iCommand;
+import org.ecs90.Domain.Vehiculo;
 
 public class FrenarCommand implements iCommand {
     private Vehiculo vehiculo;
