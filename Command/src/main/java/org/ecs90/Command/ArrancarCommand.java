@@ -1,6 +1,8 @@
-package org.ecs90;
+package org.ecs90.Command;
 
-public class ArrancarCommand implements iVehiculo{
+import org.ecs90.Domain.Vehiculo;
+
+public class ArrancarCommand implements iCommand {
     private Vehiculo vehiculo;
 
     public ArrancarCommand(Vehiculo vehiculo) {
